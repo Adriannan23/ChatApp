@@ -23,6 +23,7 @@ const login = e => {
   }
   else {
     userName = userNameInput.value;
+    console.log(userName);
     loginForm.classList.remove('show');
     addMessageForm.classList.add('show');
     console.log('usuwam login, dodaje messageform');
