@@ -44,7 +44,7 @@ const sendMessage = e => {
   e.preventDefault();
 
   if (userNameInput.value === '') {
-    console.log('empty value in the message input');
+    alert('empty value in the message input');
   }
   else {
     addMessage(userName, messageContentInput.value);
